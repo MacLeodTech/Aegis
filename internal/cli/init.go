@@ -466,7 +466,7 @@ provider:
 #   max_tokens: 16384
 #   max_retries: 4
 #   headers:
-#     HTTP-Referer: "https://github.com/fiddler110/Aegis"
+#     HTTP-Referer: "https://github.com/MacLeodTech/Aegis"
 #     X-Title: "Aegis"
 
 

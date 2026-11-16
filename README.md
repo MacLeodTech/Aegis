@@ -12,17 +12,17 @@ Already have a local LLM server running? Zero to chatting in under two minutes.
 
 ```bash
 # macOS
-git clone https://github.com/fiddler110/Aegis.git && cd Aegis
+git clone https://github.com/MacLeodTech/Aegis.git && cd Aegis
 chmod +x build-macos.sh && ./build-macos.sh
 
 # Linux
-git clone https://github.com/fiddler110/Aegis.git && cd Aegis
+git clone https://github.com/MacLeodTech/Aegis.git && cd Aegis
 chmod +x build-linux.sh && ./build-linux.sh
 ```
 
 ```powershell
 # Windows (PowerShell)
-git clone https://github.com/fiddler110/Aegis.git; cd Aegis
+git clone https://github.com/MacLeodTech/Aegis.git; cd Aegis
 .\build-windows.ps1
 ```
 

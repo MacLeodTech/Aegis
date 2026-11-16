@@ -13,12 +13,12 @@
 
 The recommended way to install Aegis is with the platform build scripts. Each script shows a plan, asks which actions to run, embeds the git version into the binary, installs to your Go bin directory, and optionally adds an `aegis-config` shell helper.
 
-Alternatively, tagged releases (`vX.Y.Z`) publish prebuilt binaries for linux/amd64, linux/arm64, darwin/amd64, darwin/arm64, and windows/amd64 on the repository's [Releases page](https://github.com/fiddler110/Aegis/releases), built by [`.github/workflows/release.yml`](../.github/workflows/release.yml) with the same version-stamped `-ldflags` the build scripts use.
+Alternatively, tagged releases (`vX.Y.Z`) publish prebuilt binaries for linux/amd64, linux/arm64, darwin/amd64, darwin/arm64, and windows/amd64 on the repository's [Releases page](https://github.com/MacLeodTech/Aegis/releases), built by [`.github/workflows/release.yml`](../.github/workflows/release.yml) with the same version-stamped `-ldflags` the build scripts use.
 
 ### macOS
 
 ```bash
-git clone https://github.com/fiddler110/Aegis.git
+git clone https://github.com/MacLeodTech/Aegis.git
 cd Aegis
 chmod +x build-macos.sh && ./build-macos.sh
 ```
@@ -28,7 +28,7 @@ The script installs to `/usr/local/bin` and targets `~/.zshrc` (zsh, default sin
 ### Linux
 
 ```bash
-git clone https://github.com/fiddler110/Aegis.git
+git clone https://github.com/MacLeodTech/Aegis.git
 cd Aegis
 chmod +x build-linux.sh && ./build-linux.sh
 ```
@@ -38,7 +38,7 @@ The script installs to `/usr/local/bin` (with `sudo` if needed) or falls back to
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/fiddler110/Aegis.git
+git clone https://github.com/MacLeodTech/Aegis.git
 cd Aegis
 .\build-windows.ps1
 ```

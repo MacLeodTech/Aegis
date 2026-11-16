@@ -392,7 +392,7 @@ WORKDIR /tmp
 ARG AEGIS_NETSCANNER_VERSION=v1
 LABEL org.opencontainers.image.title="aegis-netscanner" \
 	org.opencontainers.image.description="Aegis network- and registry-facing security scanners (no workspace mount)" \
-	org.opencontainers.image.source="https://github.com/fiddler110/aegis" \
+	org.opencontainers.image.source="https://github.com/MacLeodTech/aegis" \
 	io.aegis.netscanner.version="${AEGIS_NETSCANNER_VERSION}"
 
 ENTRYPOINT []
@@ -407,6 +407,6 @@ ARG PROFILE
 ARG AEGIS_MULTISCANNER_VERSION=v1
 LABEL org.opencontainers.image.title="aegis-multiscanner" \
 	org.opencontainers.image.description="Aegis bundled security scanners" \
-	org.opencontainers.image.source="https://github.com/fiddler110/aegis" \
+	org.opencontainers.image.source="https://github.com/MacLeodTech/aegis" \
 	io.aegis.multiscanner.profile="${PROFILE}" \
 	io.aegis.multiscanner.version="${AEGIS_MULTISCANNER_VERSION}"
